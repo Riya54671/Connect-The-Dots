@@ -2,6 +2,10 @@ Engineering Report: https://docs.google.com/document/d/1JMoT1fFwjYkRiT_Kc0zOmKke
 1. Project Overview
 Connect the Dots is a fully containerized, production-ready infrastructure system that integrates five independent services into a single cohesive platform. All external traffic is routed through a central Nginx reverse proxy. The system supports metadata storage and retrieval, binary file upload and download, and exposes a health check endpoint that verifies all services simultaneously.
 
+System Architecture
+<img width="1440" height="1440" alt="image" src="https://github.com/user-attachments/assets/8109d079-2206-4cc1-810c-dce5745b8dab" />
+
+
 Component	Technology	Purpose
 Reverse Proxy	Nginx	Single entry point, routing, static file serving
 Frontend	React + Vite	UI for metadata and file operations
